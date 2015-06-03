@@ -11,7 +11,7 @@ Famous now unites DOM and WebGL under a single coordinate system. Borrowing conc
 
 The new Famous Engine produces almost no garbage at all. Transforms are now updated through an event-based system, which avoids unnecessary matrix multiplications. The result is a renderer that delivers consistent, smooth, 60fps animations with even better performance than before.
 
-<iframe src='https://staging.famous.org/examples/index.html?block=layout&detail=false&header=false' scrolling='no' class='code-block' allowtransparency='true'></iframe>
+<iframe src='https://famous.org/examples/index.html?block=layout&detail=false&header=false' scrolling='no' class='code-block' allowtransparency='true'></iframe>
 
 
 ###3D [Physics Engine](http://famous.org/learn/physics.html):
@@ -21,7 +21,7 @@ Famous introduces a brand new 3D physics engine that brings real life movement t
 [**More on Famous physics engine here**](http://famous.org/learn/physics.html)
 
 
-<iframe src='https://staging.famous.org/examples/index.html?block=physics&detail=false&header=false' scrolling='no' class='code-block' allowtransparency='true'></iframe>
+<iframe src='https://famous.org/examples/index.html?block=physics&detail=false&header=false' scrolling='no' class='code-block' allowtransparency='true'></iframe>
 
 
 ###Embedding Made Easy: 
