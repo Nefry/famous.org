@@ -9,12 +9,28 @@
   text-align:center
   background:#272822
 
+  .get-started
+    background: $active-blue
+    display: block
+    text-align: center
+    padding: 15px
+    font-size: 24px
+    color: #272822
+    &:hover
+      border-radius: 2px
+
   h1
     font:$fonts-hero-heading
     font-size: 130px
     line-height:130px
     color:$colors-hero-primary
-    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2)
+    padding-bottom: 24px
+    border-width: 0 0 2px 0
+    border-style: solid
+    borderBottomGradient($active-blue, red)
+    span
+      font-weight: bold
 
   h2
     margin:15px auto 0 auto
@@ -43,7 +59,7 @@
     .install
       position:relative
       margin:0 auto
-      width:270px
+      width:200px
       margin-top:40px
       margin-bottom:25px
       text-align:left
