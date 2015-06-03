@@ -9,17 +9,17 @@
   position: fixed
   top: 0
   z-index: 10
+  background: black
 
   &.background
-    background:$colors-background-primary
-    backgroundGradient($colors-background-primary, $colors-background-primary-highlight)
+    background: rgba(0, 0, 0, 0.8)
 
   .nav-logo
     position:relative
     display: inline-block
     float: left
     margin-right:30px
-    width: $logo-size
+    width: 94px
     height: $logo-size
     z-index:1
 
@@ -42,10 +42,12 @@
 
   .nav-main-list
     a
-      font-size:12px
-      margin:0 25px
+      font-size:14px
+      margin:0 20px
       display: inline-block
-      color: $colors-nav-primary
+      color: white
+      &.active
+        color:#00d8ff
 
     a.cta
       margin: 0
@@ -116,7 +118,7 @@
   .nav-main-list
     //same height as logo for vertical centering
     height: $logo-size
-  
+
   .home
     margin-top: 8px
 
