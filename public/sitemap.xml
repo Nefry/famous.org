@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://famous.org/</loc>
+  <lastmod>2015-05-27T15:54:36+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/docs/</loc>
+  <lastmod>2015-05-27T21:38:52+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/support/</loc>
+  <lastmod>2015-05-27T15:54:36+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/get-started.html</loc>
+  <lastmod>2015-05-27T15:54:36+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/terms.html</loc>
+  <lastmod>2015-05-27T15:54:36+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/privacy-policy.html</loc>
+  <lastmod>2015-05-27T15:54:36+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/hello-famous.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/download-and-install.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/browser-and-device-support.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/contributing.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/boilerplate.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/scene-graph.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/components.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/displaying-content.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/styling-content.html</loc>
+  <lastmod>2015-05-27T20:48:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/positioning.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/sizing.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/user-input.html</loc>
+  <lastmod>2015-05-27T20:48:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/gesture-handler.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/transitionables.html</loc>
+  <lastmod>2015-05-27T20:48:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/easing-curves.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/program-events.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/physics.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/webgl-content.html</loc>
+  <lastmod>2015-05-27T20:48:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/webgl-styling.html</loc>
+  <lastmod>2015-05-27T20:48:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/index.html</loc>
+  <lastmod>2015-05-27T20:48:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/GettingStarted.html</loc>
+  <lastmod>2015-05-27T20:48:08+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/HelloFamous.html</loc>
+  <lastmod>2015-05-27T20:48:08+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/Architecture.html</loc>
+  <lastmod>2015-05-27T20:48:08+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/Layout.html</loc>
+  <lastmod>2015-05-27T20:48:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/OrganizingCode.html</loc>
+  <lastmod>2015-05-27T20:48:08+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/Arrows.html</loc>
+  <lastmod>2015-05-27T20:48:08+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/Dots.html</loc>
+  <lastmod>2015-05-27T20:48:08+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/Pager.html</loc>
+  <lastmod>2015-05-27T20:48:08+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/AnimatingWithPhysics.html</loc>
+  <lastmod>2015-05-27T20:48:08+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/UserInteraction.html</loc>
+  <lastmod>2015-05-27T20:48:09+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Carousel/Finish.html</loc>
+  <lastmod>2015-05-27T20:48:08+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Twitterus/index.html</loc>
+  <lastmod>2015-05-27T20:48:12+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Twitterus/GettingStarted.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Twitterus/CreatingAnApp.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Twitterus/Architecture.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Twitterus/Layout.html</loc>
+  <lastmod>2015-05-27T20:48:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Twitterus/Header.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Twitterus/Footer.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Twitterus/Swapper.html</loc>
+  <lastmod>2015-05-27T20:48:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Twitterus/UserInteraction.html</loc>
+  <lastmod>2015-05-27T20:48:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Twitterus/Animation.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/Twitterus/Finish.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/MixedMode/index.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/MixedMode/UsingMeshes.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/MixedMode/LightsCameraAction.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/MixedMode/MixingModes.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/MixedMode/OrganizingOurScene.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/MixedMode/ImportingTheModel.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/MixedMode/TheIframeScreen.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/MixedMode/DetailsDetails.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/MixedMode/Finish.html</loc>
+  <lastmod>2015-05-27T20:48:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/pitfalls.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/faq.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/glossary.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/resources.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/cla/</loc>
+  <lastmod>2015-05-27T15:54:36+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://famous.org/learn/materials.html</loc>
+  <lastmod>2015-05-27T20:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
