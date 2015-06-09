@@ -1,13 +1,14 @@
 // Hero section
 
 .hero
-  min-height: 500px
-  max-height:760px
-  height:100%
-  padding-top: 100px
-  padding-bottom: 20px
-  text-align:center
-  background:#272822
+  display: flex
+  height: 100%
+  min-height: 560px
+  bottom: 0px
+  padding: 80px 20px 20px 20px
+  text-align: center
+  background: #272822
+  align-items: center
 
   .button
     background: $active-blue
@@ -50,12 +51,7 @@
     color:$colors-hero-primary
 
   .container
-    position:relative
-    top:50%
     max-width: 100%
-    -webkit-transform: translateY(-50%)
-    -moz-transform: translateY(-50%)
-    transform: translateY(-50%)
 
     .install
       position:relative
