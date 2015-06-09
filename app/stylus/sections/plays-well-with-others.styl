@@ -1,0 +1,85 @@
+section.plays-well-with-others
+  padding-top:86px
+  padding-bottom:140px
+  background:#49afeb
+
+  h3
+    font:$fonts-light
+    font-size:36px
+    color:white
+    text-align:center
+    margin-bottom:50px
+
+  ul
+    list-style-type: none
+    max-width:$medium-width
+    padding:0
+    margin-bottom:0
+
+    li
+      margin:0 30px
+      display:inline-block
+      width:65px
+      height:65px
+
+      &.angular
+        background: url('../images/logo-sprite.png') 0 0 no-repeat;
+
+      &.flux
+        background: url('../images/logo-sprite.png') -67px 0 no-repeat;
+
+      &.bootstrap
+        background: url('../images/logo-sprite.png') -130px 0 no-repeat;
+
+      &.cordova
+        background: url('../images/logo-sprite.png') -194px 0 no-repeat;
+
+      &.apple
+        background: url('../images/logo-sprite.png') 0 -67px no-repeat;
+
+      &.windows
+        background: url('../images/logo-sprite.png') -67px -67px no-repeat;
+
+      &.android
+        background: url('../images/logo-sprite.png') -128px -68px no-repeat;
+
+      &.linux
+        background: url('../images/logo-sprite.png') -190px -60px no-repeat;
+
+      &.safari
+        background: url('../images/logo-sprite.png') 2px -135px no-repeat;
+
+      &.firefox
+        background: url('../images/logo-sprite.png') -64px -132px no-repeat;
+
+      &.chrome
+        background: url('../images/logo-sprite.png') -130px -134px no-repeat;
+
+      &.ie
+        background: url('../images/logo-sprite.png') -195px -130px no-repeat;
+
+  /**
+   *  Plays well with medium browser widths
+   */
+  @media screen and (max-width: $medium-width)
+    ul
+      list-style-type: none
+      max-width:500px
+
+  /**
+   *  Plays well with medium browser widths
+   */
+  @media screen and (max-width: $small-width)
+    h3
+      font-size:24px
+    ul
+      list-style-type: none
+      max-width:400px
+
+  /**
+   *  Plays well with small browser widths
+   */
+  @media screen and (max-width: 400px)
+    ul
+      list-style-type: none
+      max-width:250px

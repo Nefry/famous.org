@@ -1,0 +1,61 @@
+extends ../layouts/layout.jade
+
+block vars
+    - var pageType = "home"
+    - var title = 'JavaScript Library for Animations & Interfaces'
+
+block content
+    // Hero section
+    include ../partials/framework-hero.jade
+
+    // Main Content
+    section.content.framework
+        div
+            include:markdown ../content/framework.md
+
+    include ../partials/plays-well-with-others.jade
+
+block scripts
+    script.
+        //watches for vertical scroll change events and either
+        //enables or disables the background on the sticky nav
+        var nav = document.querySelector(".nav-main");
+        var hero = document.querySelector(".hero");
+        var hasBackground = nav.classList.contains("background");
+        function scrollWatcher(e) {
+            var doc = document.documentElement;
+            var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+            //if we're over the hero area, keep things transparent
+            if(top < hero.offsetHeight - nav.offsetHeight) {
+                if(hasBackground) {
+                    nav.classList.remove("background");
+                    hasBackground = false;
+                }
+                return;
+            }
+            //if we're not over the hero area, add the background
+            //if it doesn't already exist
+            if(!hasBackground) {
+                nav.classList.add("background");
+                hasBackground = true;
+            }
+        };
+        window.addEventListener("load", scrollWatcher);
+        document.addEventListener("scroll", scrollWatcher);
+        /**
+        * Function that tracks a click on an outbound link in Google Analytics.
+        * This function takes a valid URL string as an argument, and uses that URL string
+        * as the event label.
+        */
+        var trackOutboundLink = function(url) {
+           ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+             function () {
+             document.location = url;
+             }
+           });
+        }
+        /** Script for tracking install on landing page
+        **/
+        var trackInstallClick = function() {
+           ga('send', 'event', 'installClick', 'click');
+        }
