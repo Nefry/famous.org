@@ -6,13 +6,15 @@
 
   width: 100%
   padding: 15px
-  position: fixed
+  position: relative
   top: 0
   z-index: 10
   background: black
 
-  &.background
-    background: rgba(0, 0, 0, 0.8)
+  &.home
+    position: fixed
+    &.background
+      background: rgba(0, 0, 0, 0.8)
 
   .nav-logo
     position: relative
@@ -28,18 +30,18 @@
       pointer-events:none
 
   h1
-    font:$fonts-light
-    font-size:42px
-    margin:80px 0 0 0
-    padding:0
-    text-align:left
+    color: $colors-nav-secondary
+    font: $fonts-light
+    font-size: 42px
+    margin: 15px 15px 0 15px
+    text-align: left
 
   h2
-    font:$fonts-bold
-    font-size:18px
-    margin:0 0 20px 0
-    padding:0
-    text-align:left
+    color: $colors-nav-secondary
+    font: $fonts-bold
+    font-size: 18px
+    margin: 15px 15px 0 15px
+    text-align: left
 
   .nav-main-list
     a
@@ -124,16 +126,6 @@
 
   .home
     margin-top: 8px
-
-  /**
-  * Page-specific nav styles
-  */
-  &:not(.home)
-    position:relative
-    backgroundGradient($colors-background-primary, $colors-background-primary-highlight)
-
-    h1, h2
-      color: $colors-nav-secondary
 
   /**
   * Mobile media styles for medium-width (and under) screens
