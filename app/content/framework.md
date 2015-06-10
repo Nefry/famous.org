@@ -1,26 +1,14 @@
-##It’s not MVC, it’s BEST
-* ####Behavior Event State Tree is a new way to build applications.
-  Lorem ipsum dolor sit amet,consectetur adipiscing elit. Quisque gravida sollicitudin leo ac dictum. Nulla sodalconsequatn vulputate.
-
-* ####Intuitive
-  Built using standards you already know, like JSON, CSS, and HTML.
-
-* ####Declarative
-  Lorem ipsum dolor sit amet,consectetur adipiscing elit. Quisque gravida sollicitudin leo ac dictum. Nulla sodalconsequatn vulputate.
-
-* ####Powerful
-  The Famous Framework’s functional- and event-driven paradigm is Turing complete and completely expressive. Don’t just build—engineer anything you can imagine.
-
-###Everything is reusable
-* Components stack and compose like building blocks—isolated state means connections and dependencies don’t get tangled.
+* ####Power, meet structure
+  Harness all of the power of the Famous Engine with a framework designed from the ground up for  expressive user interfaces.
 
   ![Components stack](images/components.svg)
 
-* Coming soon: share your reusable components with developers and designers around the world on Famous Hub.  Build applications without reinventing the wheel.
+* ####Plays well with others
+  By  building off of universal web standards, Framework makes it easy to use Famous with any other technologies.  Sprinkle Famous into your Angular apps, your React apps, or your native apps without rewriting your whole stack. [Full friendliness still under development]
 
-  ![Share your reusable components](images/components2.svg)
+  ![Components stack](images/components2.svg)
 
-###Embed anywhere
-* ####Components are designed to be containerized.
-  BEST components’ ‘black-box’ interface allows to them to beembedded anywhere:  simply patch into their well-deﬁned input- and output-interace to include them in any existing application.
-* ![Components are designed to be containerized](images/containerized.svg)
+* ####Reuse all the things
+  The Famous Framework is built around powerful constraints and a declarative syntax that make it seamless to reuse and interchange components. This syntax also makes code consistent and easier to scale and maintain.
+
+  ![Components stack](images/containerized.svg)

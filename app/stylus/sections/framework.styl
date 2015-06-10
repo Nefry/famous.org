@@ -2,12 +2,47 @@ header.hero.framework
   .button
     width:auto
 
+section.tiles.framework
+  background:$colors-foreground-primary
+
+  h3
+    color:$colors-foreground-secondary
+    font:$fonts-light
+    font-size:36px
+
+  li
+    vertical-align:top
+
+  li:not(:last-child)
+    border-right:1px solid $colors-foreground-secondary
+
+  h4
+    color:$colors-foreground-secondary
+
+  p
+    color:$colors-foreground-secondary
+
+  /**
+  *  Stack the tiles
+  */
+  @media screen and (max-width: $medium-width)
+
+    ul
+      li
+        &:not(:last-child)
+          border:none
+          border-bottom:1px solid white
+
+  @media screen and (max-width: $small-width)
+    h3
+      font-size:28px
+
 section.framework
   div
     margin:0 auto
     padding:70px 0 100px
     color:$colors-content-foreground
-    max-width:$max-width
+    max-width:$medium-width
 
     h2
       margin-bottom:50px
@@ -24,7 +59,6 @@ section.framework
     ul
       display:block
       list-style-type:none
-      max-width:1100px
       padding:0
       margin:0 50px
 
@@ -32,20 +66,34 @@ section.framework
         font:$fonts-regular
         font-size:18px
         color:#A5A7AA
-        width:35vw
-        max-width:400px
         vertical-align:top
-        margin:0 4vw 80px
         display:inline-block
+        width:100%
+        clear:both
+        margin-bottom:80px
 
         h4
           font:$fonts-regular
           font-size:24px
           color:$colors-content-foreground
 
+        p
+          max-width:400px
+          float:left
+          &:last-child
+            float:right
+
         img
-          display:block
-          margin:50px auto 0
+          display:inline
+
+        &:nth-child(even)
+          h4
+            max-width:400px
+            margin-left:300px
+          p
+            float:right
+            &:last-child
+              float:left
 
   /**
   *  Medium sizes
@@ -57,6 +105,25 @@ section.framework
           display:block
           width:auto
           max-width:none
+
+          img
+            margin-top:20px
+          p
+            max-width:none
+            float:none
+            &:last-child
+              float:none
+              text-align: center
+
+          &:nth-child(even)
+            h4
+              max-width: none
+              margin-left:0
+            p
+              float:none
+            p:last-child
+              float:none
+
 
   /**
   *  Small sizes
